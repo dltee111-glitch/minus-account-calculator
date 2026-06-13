@@ -26,4 +26,3 @@ if days > 0:
     st.metric(label="예상 발생 이자", value=f"{int(interest):,} 원")
 else:
     st.warning("상환 예정일을 시작일 이후로 설정해주세요.")
-```eof
