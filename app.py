@@ -55,3 +55,12 @@ with tab3:
 
 st.markdown("---")
 st.info("이 계산기는 이해를 돕기 위한 모의 계산 결과이며, 실제 은행의 계산 방식(일할 계산 적용 시점 등)과 다를 수 있습니다.")
+
+# 블로그 링크 배너 추가
+st.markdown("""
+    <div style="background-color: #f0f2f6; padding: 20px; border-radius: 10px; margin-top: 30px; text-align: center;">
+        <h4 style="color: #333; margin-bottom: 10px;">✍️ Karis의 테크 & 재테크 블로그</h4>
+        <p style="color: #555; margin-bottom: 15px;">최신 공모주 상세 분석, IPO 청약 일정 및 재테크 꿀팁을 놓치지 마세요!</p>
+        <a href="https://blog.naver.com/karis_official" target="_blank" style="text-decoration: none; color: #ffffff; background-color: #00c73c; padding: 10px 20px; border-radius: 5px; font-weight: bold;">블로그 바로가기</a>
+    </div>
+""", unsafe_allow_html=True)
